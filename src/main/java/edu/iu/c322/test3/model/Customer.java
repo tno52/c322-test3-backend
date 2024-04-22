@@ -4,9 +4,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-
+@Entity
 public class Customer {
 
+    @Id
     private String username;
     private String password;
 
